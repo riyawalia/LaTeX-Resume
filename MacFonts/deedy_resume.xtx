@@ -104,8 +104,7 @@ A networking web app that lets \\ users 'connect' on multiple social media profi
 \sectionsep
 
 \subsection{Compiler}
-Information Retrieval \\
-Operating Systems \\
+Created a compiler \& assembler from scratch for a subset of C++ 
 \sectionsep
 
 \subsection{FixIt}
@@ -205,19 +204,28 @@ serve as a testing framework for future projects to expand on.
 \runsubsection{President}
 \descript{| Gamma Iota Sigma UW Chapter }
 \location{Jan 2019 – April 2019}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+GIS is an international insurance business fraternity with 85+ chapters \\
+\begin{tightemize}
+\item Lead an executive team of 12 working to establish the first Canadian chapter
+\item Established an agile-like communication and issue tracking structure
+\item Organized events to facilitate student interest 
+\end{tightemize} 
 \sectionsep
 
 \runsubsection{Developer}
 \descript{| UW Entrepreneurship Society}
 \location{Jan 2019 – Present}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+Developing in ReactJs a tool to connect project resources etc etc what do I say?
 \sectionsep
 
 \runsubsection{TEACHER}
 \descript{| Technovation Waterloo}
 \location{Jan 2019 – April 2019}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+\begin{tightemize}
+\item Taught two teams of four 13-year old girls event-based programming 
+\item Mentored the teams through the end to end process of researching, designing and developing an Android app 
+\end{tightemize}
+
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -236,7 +244,7 @@ Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-
 %\end{tabular}
 \begin{tightemize}
 \item \textbf{Mentored} at the UW HeForShe Hackathon 2017 \& StarterHacks 2019 
-\item \textbf{Hacked} at HackTheNorth 2016, Electric City Hacks 2016 
+\item \textbf{Hacked} at Hack The North 2016, Electric City Hacks 2016 
 \item \textbf{Volunteered to teach} underprivileged children in India how to read \& write in English and Math \
 \item \textbf{Volunteered} in a team to restore houses of a flooded village
 \item Trained as a \textbf{professional jazz dancer} from 2012 to 2016 
