@@ -5,8 +5,8 @@ A **one-page**, **two asymmetric column** resume template in **XeTeX** that cate
 
 ## Preview
 
-View the pdf version [here](riyawalia.com\resume.pdf)
-![alt tag](MacFonts\RiyaLaTexResume-1.png)
+View the pdf version [here](riyawalia.com/resume.pdf)
+![](/MacFonts/RiyaLaTexResume-1.png)
 
 
 
