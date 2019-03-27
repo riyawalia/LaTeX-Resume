@@ -17,36 +17,9 @@
 % operating system or comment the line out to use the default font.
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
+
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -59,13 +32,14 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \lastupdated
+\contact
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Riya}{Walia}{ \urlstyle{same}\href{riyawalia.com}{riyawalia.com}| 
+\namesection{Riya}{Walia} { \urlstyle{same}\href{riyawalia.com}{riyawalia.com} | 
 \href{mailto:riyawalia12@gmail.com}{riyawalia12@gmail.com} | 226.978.9859 
 }
 
@@ -94,32 +68,33 @@ Awarded the President's Scholarship of Distinction Award
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{PROJECTS}
-\subsection{EasyEqual}
-A deep equality comparison C\# framework \\
+\subsection{Easy Equal}
+A deep equality comparison C\#  \\ library to aid unit tests \\
+\sectionsep
 \sectionsep
 
 \subsection{Connect}
 A networking web app that lets \\ users 'connect' on multiple social media profiles with anyone in earshot with a single click.\\
-\it{Group project, developed at EC Hacks}
-\sectionsep
 
+\sectionsep
+\sectionsep
 \subsection{Compiler}
-Created a compiler \& assembler from scratch for a subset of C++ 
+A compiler \& assembler developed \\
+from scratch for a subset of C++ 
 \sectionsep
-
-\subsection{FixIt}
-Information Retrieval \\
-Operating Systems \\
 \sectionsep
-
+\subsection{DRY Debug}
+A logger that helps you debug by 
+documenting a list of errors thrown \\ and
+the related code changes\\ made to fix them
+\sectionsep
+\sectionsep
 \subsection{Pathways}
-Information Retrieval \\
-Operating Systems \\
+A web app that uses AR to bring abstract maps to the real world
 \sectionsep
-
+\sectionsep
 \subsection{unbeatable tic-tac-toe}
-Information Retrieval \\
-Operating Systems \\
+An unbeatable game developed to learn React
 \sectionsep
 
 
@@ -129,15 +104,15 @@ Operating Systems \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Skills}
 \subsection{Proficient in}
-C++ \textbullet{}   C\# \textbullet{} Python \textbullet{} Racket \\
-Git \textbullet{}  Lua \textbullet{} Bash \textbullet{} \CSS\ HTML \\
-\textbullet{} Powershell 
+C++ \textbullet{}   C\# \textbullet{} C \textbullet{} Python \\
+Racket \textbullet{} Git \textbullet{}  Lua \textbullet{} Bash \\
+CSS \textbullet{} HTML \textbullet{} Powershell  \\
 \sectionsep
-
+\sectionsep
 \subsection{Familiar with}
-C \textbullet{} SQLServer \textbullet{} ReactJS \textbullet{} \\
-JS \textbullet{} PHP \textbullet{} Selenium \textbullet{} Moq \\
-\textbullet{} NUnit
+SQLServer \textbullet{} React \textbullet{} JS \\
+Material-UI \textbullet{} PHP  \textbullet{} Moq \\
+NUnit \textbullet{} Selenium \\
 \sectionsep
 \sectionsep
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -157,12 +132,12 @@ JS \textbullet{} PHP \textbullet{} Selenium \textbullet{} Moq \\
 \section{Experience}
 \runsubsection{Kofax}
 \descript{| Software Developer }
-\location{Jan 2019 - Present | Waterloo, ON}
+\location{Jan 2019 - April 2019 | Waterloo, ON}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed a prerequisite check and installer tool
-\item Implemented a C# WPF Diagnostic Tool for broken clients and services
-\item Fixed defects found by teams worldwide that tested \& used the tool.
+\item Increased reliability \& efficiency of behave-driven tests by 50\% \& 30\% each
+\item Implemented performance based load tests using multi-threading
+\item Contributed to the Security Framework in an agile team
 \end{tightemize}
 \sectionsep
 
@@ -171,39 +146,37 @@ JS \textbullet{} PHP \textbullet{} Selenium \textbullet{} Moq \\
 \location{Jan 2018 – April 2018 | Waterloo, ON}
 \begin{tightemize}
 \item Developed a prerequisite check and installer tool
-\item Implemented a C# WPF Diagnostic Tool for broken clients and services
-\item Fixed defects found by teams worldwide that tested \& used the tool.
+\item Implemented a C\# WPF Diagnostic Tool for broken clients and services
+\item Fixed defects in an agile team found by testers worldwide that used the tool
 \end{tightemize}
 \sectionsep
 
 \runsubsection{CEL, UWaterloo}
-\descript{| QA Developer}
+\descript{| QA Web Developer}
 \location{May 2017 – Aug 2017 | Waterloo, ON}
 \begin{tightemize}
-\item Developed a C# application to import thousands of tickets to
-an SQLServer database that I designed from scratch. 
-\item Solely developed a Selenium Project for an MVC .NET app to
-serve as a testing framework for future projects to expand on. 
-\item Introduced team to Moq for unit testing.
+\item Implemented a C\# app \& designed an SQLServer database to import thousands \\ of email tickets
+\item Developed a Selenium testing framework for MVC .NET apps single-handedly
+\item Introduced team to Moq for unit testing \& established a documentation standard.
 \end{tightemize}
 \sectionsep
 
 \runsubsection{RIKHI RAM MUSIC}
-\descript{| Front end web developer}
+\descript{| Front End Web developer}
 \location{May 2016 – July 2016 | New Delhi, India}
 \begin{tightemize}
-\item Solely developed, designed and deployed a musician’s website from scratch. 
+\item Deployed, developed and designed a musician’s website solely from end to end. 
 \end{tightemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     CLUBS & SOCIETIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{CLUBS \& SOCIETIES}
 \runsubsection{President}
 \descript{| Gamma Iota Sigma UW Chapter }
 \location{Jan 2019 – April 2019}
-GIS is an international insurance business fraternity with 85+ chapters \\
+GIS is an international insurance professional fraternity with 85+ chapters \\
 \begin{tightemize}
 \item Led an executive team of 12 working to establish the first Canadian chapter
 \item Established an agile-like communication and issue tracking structure
@@ -214,7 +187,9 @@ GIS is an international insurance business fraternity with 85+ chapters \\
 \runsubsection{Developer}
 \descript{| UW Entrepreneurship Society}
 \location{Jan 2019 – Present}
-Developing in ReactJs a tool to connect project resources etc etc what do I say?
+\begin{tightemize}
+\item Developing a React app to connect students to available projects they can work on.
+\end{tightemize}
 \sectionsep
 
 \runsubsection{TEACHER}
@@ -227,7 +202,7 @@ Developing in ReactJs a tool to connect project resources etc etc what do I say?
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
+%     ACTIVITIES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Activities} 
