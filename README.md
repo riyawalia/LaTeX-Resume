@@ -1,7 +1,7 @@
 Resume
 =========================
 
-A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
+A **one-page**, **two asymmetric column** resume in **XeTeX** that uses the popular [Deedy](https://github.com/deedy/Deedy-Resume) template
 
 ## Preview
 
