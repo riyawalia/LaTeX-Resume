@@ -6,7 +6,7 @@ A **one-page**, **two asymmetric column** resume in **XeTeX** that uses the popu
 ## Preview
 
 View the pdf version [here](riyawalia.com/resume.pdf)
-![](/MacFonts/RiyaLaTexResume-1.png)
+![](/OpenFontsFonts/RiyaLatexResume-1.png)
 
 
 
